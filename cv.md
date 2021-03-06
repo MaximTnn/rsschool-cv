@@ -49,4 +49,3 @@ My goal is to develop in this area, find a job and reach the level
 
 ## English language
 * A2
-
