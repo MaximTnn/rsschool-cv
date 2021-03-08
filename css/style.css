@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    background: linear-gradient(328deg, hsl(0,0%,9.41%) 14%, hsl(213.77,100%,54.71%) 100%);
+    background-attachment: fixed;
+}
+.page {
+    height: 100%;
+    width: 1000px;
+    margin: 30px auto;
+    background-color: rgb(245, 245, 245);
+}
+.header {
+    color: rgb(221, 221, 221);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+
+}
+.header__title {
+}
+.title__name {
+    font-size: 50px;
+    margin: 20px 0;
+}
+.title__specialty {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.header__avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px white solid;
+    margin: 20px 20px;
+}
+.avatar__img {
+    height: 100px;
+    width: 100px;
+}
+.main {
+    display: flex;
+}
+.sidebar {
+    padding: 20px;
+    border-right: 2px rgba(90, 90, 90, 0.75) solid;
+}
+.sidebar__blok {
+}
+.contact {
+}
+.blok-title {
+    display: flex;
+    align-items: center;
+}
+.title-icon {
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+}
+.title-text {
+}
+.blok-info {
+}
+.blok-info__item {
+    display: flex;
+    margin: 20px;
+}
+.item-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.item-text {
+}
+.side-bar__blok {
+}
+.education {
+}
+.content {
+    padding: 20px;
+}
+.content-item {
+    margin-bottom: 15px;
+}
+.content__text {
+    font-size: 20px;
+    padding: 10px;
+}
+.skils {
+    display: flex;
+}
+.item__skils {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 2px grey solid;
+    margin: 10px;
+    
+}
+.blok-element__text {
+    margin: auto;
+}
