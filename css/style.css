@@ -94,6 +94,16 @@ body {
     font-size: 20px;
     padding: 10px;
 }
+
+.my-code {
+    display: flex;
+}
+
+.my-code a {
+    display: flex;
+}
+
+
 .skils {
     display: flex;
 }
@@ -102,9 +112,21 @@ body {
     width: 60px;
     border-radius: 30px;
     border: 2px grey solid;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 .blok-element__text {
     margin: auto;
+}
+
+.futter-info {
+    padding: 20px 0;
+    background-color: rgba(104, 104, 104, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs_school {
+    height: 60px;
+    margin-left: 30px;
 }
